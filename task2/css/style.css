@@ -1,0 +1,33 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+h1 {
+	margin-top: 30px;
+    margin-left: 50px;
+}
+#characters {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+.character-card {
+	border: 1px solid gray;
+	margin: 10px;
+	padding: 10px;
+}
+.character-card:hover {
+	cursor: pointer;
+	box-shadow: 0 0 5px gray;
+}
+.character-card img {
+	display: block;
+	margin: 0 auto;
+	max-width: 100%;
+}
+.character-card a {
+	text-decoration: none;
+}
+#characterDetails {
+    margin-left: 50px;
+}
